@@ -184,13 +184,14 @@ export function AddTransactionForm({
                 </SelectItem>
               ))}
               <CreateAccountDrawer>
-                <Button
-                  variant="ghost"
-                  className="relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none hover:bg-accent hover:text-accent-foreground"
+                <div className="flex justify-center items-center py-2">
+                <button type="button"
+                className="w-[90%] rounded-md bg-primary text-primary-foreground text-sm font-medium py-2 hover:bg-primary/90 transition-colors"
                 >
-                  Create Account
-                </Button>
-              </CreateAccountDrawer>
+                Create Account
+                </button>
+  </div>
+</CreateAccountDrawer>
             </SelectContent>
           </Select>
           {errors.accountId && (
@@ -305,28 +306,27 @@ export function AddTransactionForm({
       )}
 
       {/* Actions */}
-      <div className="flex gap-4">
-        <Button
-          type="button"
-          variant="outline"
-          className="w-full"
-          onClick={() => router.back()}
-        >
-          Cancel
-        </Button>
-        <Button type="submit" className="w-full" disabled={transactionLoading}>
-          {transactionLoading ? (
-            <>
-              <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-              {editMode ? "Updating..." : "Creating..."}
-            </>
-          ) : editMode ? (
-            "Update Transaction"
-          ) : (
-            "Create Transaction"
-          )}
-        </Button>
-      </div>
-    </form>
+    <div className="flex justify-end gap-4">
+    <Button
+    type="button"
+    variant="outline"
+    onClick={() => router.back()}
+    >
+    Cancel
+    </Button>
+    <Button type="submit" disabled={transactionLoading}>
+    {transactionLoading ? (
+      <>
+        <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+        {editMode ? "Updating..." : "Creating..."}
+      </>
+    ) : editMode ? (
+      "Update Transaction"
+    ) : (
+      "Create Transaction"
+    )}
+    </Button>
+  </div>
+  </form>
   );
 }
