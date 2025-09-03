@@ -16,6 +16,6 @@ An advanced finance management application built with **React.js, Next.js, and S
 - **React.js**
 - **Next.js**
 - **Supabase**
-- **Tailwind**
+- **Tailwind CSS**
 
   
