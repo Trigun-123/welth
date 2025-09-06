@@ -10,19 +10,19 @@ import {
 // Stats Data
 export const statsData = [
   {
-    value: "50K+",
+    value: "10K+",
     label: "Active Users",
   },
   {
-    value: "$2B+",
+    value: "$400+",
     label: "Transactions Tracked",
   },
   {
-    value: "99.9%",
+    value: "99%",
     label: "Uptime",
   },
   {
-    value: "4.9/5",
+    value: "4.7/5",
     label: "User Rating",
   },
 ];
@@ -88,23 +88,23 @@ export const howItWorksData = [
 // Testimonials Data
 export const testimonialsData = [
   {
-    name: "Sarah Johnson",
-    role: "Small Business Owner",
-    image: "https://randomuser.me/api/portraits/women/75.jpg",
+    name: "Trigun",
+    role: "Freelancer",
+    image: "/Trigun.png",
     quote:
       "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
   },
   {
-    name: "Michael Chen",
-    role: "Freelancer",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    name: "Shreekar Puranik",
+    role: "Software Developer",
+    image: "/shreekar.png",
     quote:
       "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
   },
   {
-    name: "Emily Rodriguez",
+    name: "Vikas",
     role: "Financial Advisor",
-    image: "https://randomuser.me/api/portraits/women/74.jpg",
+    image: "/Vikas.png",
     quote:
       "I recommend Welth to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
   },
