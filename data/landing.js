@@ -88,16 +88,16 @@ export const howItWorksData = [
 // Testimonials Data
 export const testimonialsData = [
   {
-    name: "Trigun",
+    name: "Varun",
     role: "Freelancer",
-    image: "/Trigun.png",
+    image: "/Varun.jpg",
     quote:
       "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
   },
   {
     name: "Shreekar Puranik",
     role: "Software Developer",
-    image: "/shreekar.png",
+    image: "/Shreekar.png",
     quote:
       "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
   },
