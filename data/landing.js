@@ -90,7 +90,7 @@ export const testimonialsData = [
   {
     name: "Varun",
     role: "Freelancer",
-    image: "/Varun.jpg",
+    image: "/Varun.png",
     quote:
       "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
   },
