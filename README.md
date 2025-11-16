@@ -19,3 +19,12 @@ An advanced finance management application built with **React.js, Next.js, and S
 - **Tailwind CSS**
 
   
+## 📸 Screenshots
+<img width="45%" alt="image" src="https://github.com/user-attachments/assets/240fc65a-d644-4366-86fe-f0eb6fdbcdb3" />
+<img width="45%" alt="image" src="https://github.com/user-attachments/assets/b07b9fb4-35cf-4173-a437-2006f62e0780" />
+<img width="45%" alt="image" src="https://github.com/user-attachments/assets/624a5afe-647d-43ee-9fb2-33ddde0defc1" />
+<img width="45%" alt="image" src="https://github.com/user-attachments/assets/fe4ddc03-7aae-4be9-be62-fe4765567516" />
+<img width="45%" alt="image" src="https://github.com/user-attachments/assets/5764cfa0-7ba1-4447-81d0-d9b7ebbd9aa3" />
+<img width="45%" alt="image" src="https://github.com/user-attachments/assets/07602c92-5806-4cf6-a041-62a65946385b" />
+
+
